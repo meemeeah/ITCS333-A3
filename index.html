@@ -1,6 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UOB Students by Nationality</title>
+    <!-- Add Pico CSS for styling -->
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+</head>
+<body>
 
+    <h1>UOB Students by Nationality</h1>
 
- 
+    <!-- container table for horizontal scrolling -->
+    <div>
+        <!-- Table to can display the data -->
+        <table id="studentTable" >
+            <thead>
+                <!-- Table headers -->
+                <tr>
+                    <th>Year</th>
+
+                    <th>Semester</th>
+
+                    <th>Program</th>
+
+                    <th>Nationality</th>
+
+                    <th>College</th>
+                    
+                    <th>Number of Students</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data rows will be inserted here from the js code -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 UOB. All rights reserved.</p>
+    </footer>
 
     <script>
         // Function to display data in the table from the API
